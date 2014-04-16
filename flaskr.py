@@ -10,7 +10,7 @@ app = Flask(__name__)
 def joke():
     return "HHAHAHAHAHAHAHAHAHAHAHA"
 
-@app.route('/', defaults={'path': 'index'})
+@app.route('/', defaults={'path': 'about_me'})
 @app.route('/<path:path>')
 def show_page(path):
     templates = [t.format(path=path) for t in 'pages/{path}.html', '{path}.html']
