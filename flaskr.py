@@ -13,7 +13,8 @@ def joke():
 @app.route('/', defaults={'path': 'about_me'})
 @app.route('/<path:path>')
 def show_page(path):
-    templates = [t.format(path=path) for t in 'pages/{path}.html', '{path}.html']
+    templates = [t.format(path=path)
+                 for t in 'pages/{path}.html', '{path}.html']
     try:
         return render_template(templates)
     except TemplateNotFound:
