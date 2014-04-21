@@ -1,4 +1,23 @@
+header {
+  font-family: papyrus;
+}
+
 body {
   font-family: sans-serif;
 }
 
+h1 {
+  font-family: droid;
+}
+
+h2 {
+  font-family: times-newroman ;
+}
+
+p {
+  font-family: papyrus;
+}
+
+footer {
+  font-family: courier;
+}
