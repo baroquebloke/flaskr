@@ -6,24 +6,29 @@
     <link rel="stylesheet" type="text/css" href="/static/style.css"/>
   </head>
   <body>
+    <div class="container">
+    <div class="header">
     {% block page_header %}
-    <header class="page-header">
+    <header>
       The name's Jacob Farnsworth,
           No, you may not call me The Professor.
-    </header>
+    </header></div>
     {% endblock page_header %}
-
+      <div class="menu">
+        <b><a href="http://0.0.0.0:5000/about_me">About Me</a></b><br>
+        <b><a href="http://0.0.0.0:5000/resume">My Resume</a></b><br>
+        <b><a href="http://0.0.0.0:5000/index">Index</a></b>
+      </div>
+    {% block content %}
     <div class="page-content">
-      {% block content %}{% endblock %}
     </div>
-
+    {% endblock %}
     {% block page_footer %}
-    <footer class="page-footer">
+    <div class="page-footer">
+    <footer>
       Thanks for stopping by!
-      <a href="http://0.0.0.0:5000/about_me">About Me</a>
-      <a href="http://0.0.0.0:5000/resume">My Resume</a>
-      <a href="http://0.0.0.0:5000/index">Index</a>
-    </footer>
+    </footer></div>
     {% endblock page_footer %}
+  </div>
   </body>
 </html>

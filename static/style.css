@@ -1,23 +1,33 @@
-header {
-  font-family: papyrus;
-}
-
-body {
-  font-family: sans-serif;
-}
-
-h1 {
-  font-family: droid;
-}
-
-h2 {
-  font-family: times-newroman ;
-}
-
-p {
-  font-family: papyrus;
-}
-
-footer {
+.container
+{
   font-family: courier;
+  width: 500px;
+}
+
+.header 
+{
+  background-color: #FFA500;
+}
+
+.menu
+{
+  background-color: #FFD700;
+  height: 400px;
+  width: 100px;
+  float: left;
+}
+
+.page-content
+{
+  background-color: #EEEEEE;
+  height: 400px;
+  width: 400px;
+  float: left;
+}
+
+.page-footer 
+{ 
+  background-color: #FFA500;
+  clear: both;
+  text-align: center;
 }
