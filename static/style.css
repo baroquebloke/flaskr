@@ -1,32 +1,28 @@
-.container
-{
+.container {
   font-family: courier;
-  width: 500px;
+  width: 100%;
 }
 
-.header 
-{
+.header {
   background-color: #FFA500;
 }
 
-.menu
-{
+#menu {
   background-color: #FFD700;
-  height: 400px;
-  width: 100px;
+  height: 600px;
+  width: 200px;
   float: left;
+  //display: none;
 }
 
-.page-content
-{
+.page-content {
   background-color: #EEEEEE;
-  height: 400px;
-  width: 400px;
+  height: 100%;
+  width: 10%; 
   float: left;
 }
 
-.page-footer 
-{ 
+.page-footer { 
   background-color: #FFA500;
   clear: both;
   text-align: center;

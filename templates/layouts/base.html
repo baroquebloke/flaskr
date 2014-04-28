@@ -14,14 +14,15 @@
           No, you may not call me The Professor.
     </header></div>
     {% endblock page_header %}
-      <div class="menu">
-        <b><a href="http://0.0.0.0:5000/about_me">About Me</a></b><br>
-        <b><a href="http://0.0.0.0:5000/resume">My Resume</a></b><br>
-        <b><a href="http://0.0.0.0:5000/index">Index</a></b>
-      </div>
-    {% block content %}
-    <div class="page-content">
+   
+    <div id="menu">
+      <b><a href="/about_me">About Me</a></b><br>
+      <b><a href="/resume">My Resume</a></b><br>
+      <b><a href="/index">Index</a></b>
     </div>
+    
+    {% block content %}
+    <div class="page-content"></div>
     {% endblock %}
     {% block page_footer %}
     <div class="page-footer">
