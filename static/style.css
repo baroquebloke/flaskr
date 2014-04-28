@@ -1,29 +1,36 @@
+html {
+  background-color: #F0F0D8;
+}
+
 .container {
+  background-color: #DDDDBA;
   font-family: courier;
-  width: 100%;
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: left;
 }
 
 .header {
-  background-color: #FFA500;
+  background-color: #F0C030;
+  text-align: center;
 }
 
 #menu {
-  background-color: #FFD700;
-  height: 600px;
-  width: 200px;
-  float: left;
-  //display: none;
+  background-color: #F0F0C0;
+  height: 20px;
+  width: 100%;
+  text-align: center;
+  clear: both;
 }
 
 .page-content {
-  background-color: #EEEEEE;
   height: 100%;
   width: 10%; 
   float: left;
 }
 
 .page-footer { 
-  background-color: #FFA500;
+  background-color: #F0C030;
   clear: both;
   text-align: center;
 }
