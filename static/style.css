@@ -8,7 +8,7 @@ html, body {
   font-family: courier;
   margin: 0 auto;
   position: relative;
-  height: 100%; 
+  height: 600px; 
   max-width: 800px;
   text-align: left;
 }
@@ -28,12 +28,14 @@ html, body {
 
 .page-content {  
   float: left;
-  max-height: 100%;
+  
 }
 
 .page-footer {
+  position: auto;
   background: #F0C030;
   max-width: 800px;
   text-align: center;
   margin: 0 auto;
+  margin-bottom: -100px;
 }
