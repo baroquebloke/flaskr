@@ -1,4 +1,5 @@
-html {
+html, body {
+  height: 100%;
   background-color: #F0F0D8;
 }
 
@@ -6,6 +7,8 @@ html {
   background-color: #DDDDBA;
   font-family: courier;
   margin: 0 auto;
+  height: 100%;
+  
   max-width: 800px;
   text-align: left;
 }
@@ -24,12 +27,14 @@ html {
 }
 
 .page-content {
-  height: 100%;
-  width: 10%; 
+  height: 100%;  
   float: left;
 }
 
 .page-footer { 
+  
+  min-height: 100%;
+  max-width: 100%;
   background-color: #F0C030;
   clear: both;
   text-align: center;
