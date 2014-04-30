@@ -1,39 +1,28 @@
 html, body {
+  max-width: 800px;
   height: 95%;
+  margin: 0 auto;
   background-color: #F0F0D8;
 }
 
 .container {
   background-color: #DDDDBA;
-  font-family: courier;
-  margin: 0 auto;
-  position: relative;
-  height: 100%; 
-  max-width: 800px;
-  text-align: left;
 }
 
 .header {
-  background-color: #F0C030;
   text-align: center;
+  margin: 0px;
+  background-color: #F0C030;
 }
 
 #menu {
   background-color: #F0F0C0;
-  width: 100%;
-  text-align: center;
-  clear: both;
 }
 
-.page-content {  
-  float: left;
-  
+.page-content{
 }
 
 .page-footer {
-  position: auto;
-  background: #F0C030;
-  max-width: 800px;
   text-align: center;
-  margin: 0 auto;
+  background: #F0C030;
 }
