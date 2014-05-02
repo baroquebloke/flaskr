@@ -10,18 +10,18 @@
       <div class="header">
         {% block page_header %}
         <menu>
-          Jacob Farnsworth, Programming and Web Design
+          <span class="firstcharacter">J</span> acob Farnsworth
         </menu>
         {% endblock page_header %}
       </div>
       <div id="menu">
-        <menu>
-          <span>
-            <a href="/about_me">Who Am I?</a>
-            <a href="/resume">Hire Me</a>
-            <a href="/index">Index</a>
-          </span>
-        </menu>
+        <div id="holder">
+          <ul>
+            <li><a href="/about_me">Who am I?</a></li>
+            <li><a href="/resume">Hire Me</a></li>
+            <li><a href="/index">Index</a></li>
+          </ul>
+        </div>
       </div>
       <div class="page-content">
         {% block content %}
