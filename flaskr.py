@@ -10,7 +10,7 @@ app = Flask(__name__)
 def joke():
     return "HHAHAHAHAHAHAHAHAHAHAHA"
 
-@app.route('/', defaults={'path': 'about_me'})
+@app.route('/', defaults={'path': 'index'})
 @app.route('/<path:path>')
 def show_page(path):
     templates = [t.format(path=path)
@@ -19,6 +19,10 @@ def show_page(path):
         return render_template(templates)
     except TemplateNotFound:
         return render_template('404.html'), 404
+
+@app.errorhandler(404)
+def page_not_found(e):
+    return render_template('404.html'), 404
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True)
