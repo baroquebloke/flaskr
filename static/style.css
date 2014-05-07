@@ -11,14 +11,19 @@ html, body {
 
 .header {
   text-align: center;
-  text-shadow: 2px 2px 4px #000;
   width: 100%;
   float: left;
   clear: both;
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+  font-size: 150%;
+}
+
 h1 {
-  font-size: 300%;
+  font-size: 300%;  
 }
 
 h2 {
@@ -28,6 +33,7 @@ h2 {
 
 
 #menu {
+
 }
 
 .page-content{
