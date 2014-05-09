@@ -3,7 +3,7 @@ html, body {
   max-width: 800px;
   height: 95%;
   margin: 0 auto;
-  background-color: #F0F0D8;
+  background-color: #B1F09A;
 }
 
 .container {
@@ -16,28 +16,38 @@ html, body {
   clear: both;
 }
 
-a {
-  text-decoration: none;
-  color: #000;
-  font-size: 150%;
-}
-
 h1 {
-  font-size: 300%;  
+  font-size: 300%;
+  clear: both;
 }
 
 h2 {
   text-align: right;
   font-size: 200%;
+  clear: both;
 }
 
-
 #menu {
+  margin-bottom: 30px;
+  float: left;
+  clear: both;
+}
 
+a {
+  margin-right: 75px;
+  font-size: 125%;
+  text-decoration: none;
+  text-align: left;
+  color: #000;
+  float: left;
 }
 
 .page-content{
+  float: left;
+  clear: both;
 }
 
 .page-footer {
+  float: left;
+  clear: both;
 }
