@@ -1,6 +1,6 @@
 html, body {
   font-family: monospace;
-  max-width: 800px;
+  max-width: 700px;
   height: 95%;
   margin: 0 auto;
   background-color: #B1F09A;
@@ -10,6 +10,7 @@ html, body {
 }
 
 .header {
+  margin-top: 30px;
   text-align: center;
   width: 100%;
   float: left;
@@ -17,29 +18,34 @@ html, body {
 }
 
 h1 {
-  font-size: 300%;
-  clear: both;
 }
 
 h2 {
   text-align: right;
-  font-size: 200%;
-  clear: both;
+  margin-right: 25px;
 }
 
 #menu {
   margin-bottom: 30px;
-  float: left;
+  float: right;
   clear: both;
 }
 
 a {
-  margin-right: 75px;
+  margin-left: 25px;
+  text-align: right;
   font-size: 125%;
   text-decoration: none;
-  text-align: left;
   color: #000;
   float: left;
+}
+
+.declaration {
+  color: #AAA;
+}
+
+button {
+  clear: both;
 }
 
 .page-content{
@@ -48,6 +54,7 @@ a {
 }
 
 .page-footer {
+  margin-top: 25px;
   float: left;
   clear: both;
 }
