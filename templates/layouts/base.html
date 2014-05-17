@@ -9,16 +9,17 @@
     <div class="container">
       <div class="header">
         {% block page_header %}
+        <h1>Farnsworth Programming and Web Design</h1>
         {% endblock page_header %}
       </div>
-      <div id="menu">
+      <div class="page-menu">
+        <!--
         <menu>
-          <span><strong>
-            <a href="/">&ltWelcome&gt</a>
-            <a href="/about_me">&ltWhy&gt</a>
-            <a href="/resume">&ltHire Me&gt</a>
-        </span></strong>
+            <a href="/index">Welcome</a>
+            <a href="/about_me">About Me</a>
+            <a href="/resume">Hire Me</a>
         </menu>
+        -->
       </div>
       <div class="page-content">
         {% block content %}
@@ -26,6 +27,7 @@
       </div>
       <div class="page-footer">
         {% block page_footer %}
+        This is my foot
         {% endblock page_footer %}
       </div>
     </div>

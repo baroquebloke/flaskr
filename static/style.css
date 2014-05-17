@@ -1,60 +1,31 @@
-html, body {
-  font-family: monospace;
-  max-width: 700px;
-  height: 95%;
+html {
+  max-width: 800px;
+  background: #ABABAB;
   margin: 0 auto;
-  background-color: #B1F09A;
 }
-
 .container {
 }
-
 .header {
-  margin-top: 30px;
-  text-align: center;
   width: 100%;
+  background: yellow;
+  text-align: center;
+  float: left;
+}
+/*.page-menu {
+  width: 100%;
+  background: gray;
+  float: left;
+  clear: both;
+}*/
+.page-content {
+  width: 100%;
+  background: green;
   float: left;
   clear: both;
 }
-
-h1 {
-}
-
-h2 {
-  text-align: right;
-  margin-right: 25px;
-}
-
-#menu {
-  margin-bottom: 30px;
-  float: right;
-  clear: both;
-}
-
-a {
-  margin-left: 25px;
-  text-align: right;
-  font-size: 125%;
-  text-decoration: none;
-  color: #000;
-  float: left;
-}
-
-.declaration {
-  color: #AAA;
-}
-
-button {
-  clear: both;
-}
-
-.page-content{
-  float: left;
-  clear: both;
-}
-
 .page-footer {
-  margin-top: 25px;
+  width: 100%;
+  background: blue;
+  text-align: center;
   float: left;
-  clear: both;
 }
