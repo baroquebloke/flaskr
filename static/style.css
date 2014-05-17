@@ -6,7 +6,7 @@ html {
 }
 .header {
   width: 100%;
-  text-align: auto;
+  text-align: left;
   line-height: 200%;
   float: left;
 }
@@ -23,6 +23,24 @@ h1:first-child:first-letter {
   width: 100%;
   float: left;
   clear: both;
+}
+.res-dl {
+  display: block;
+  background: #4A9CAF;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 150%;
+  text-align: center;
+  width: 325px;
+  float: right;
+}
+.resume {
+  float: left;
+  clear: both;
+}
+h2 {
+  font-size: 300%;
+  text-align: right;
 }
 .page-footer {
   width: 100%;
