@@ -24,16 +24,6 @@ h1:first-child:first-letter {
   float: left;
   clear: both;
 }
-.res-dl {
-  display: block;
-  background: #4A9CAF;
-  padding: 10px;
-  border-radius: 5px;
-  font-size: 150%;
-  text-align: center;
-  width: 325px;
-  float: right;
-}
 .resume {
   float: left;
   clear: both;
