@@ -1,34 +1,59 @@
 html {
   max-width: 800px;
   margin: 0 auto;
-  font-family: monospace;
+  background: #DDDDDD;
+  font-family: AppleGothic;
 }
 .container {
 }
 .header {
   width: 100%;
+  margin-top: 5%;
   text-align: left;
   line-height: 200%;
-  font-size: 150%;
+  font-size: 125%;
   /*background: red;*/
   float: left;
 }
 h1:first-child:first-letter {
   float: left;
   color: #903;
-  font-size: 90px;
+  text-shadow: 2px 2px 1px #001F3F;
+  font-size: 100px;
   line-height: 60px;
   padding-top: 4px;
+  padding-right: 5px;
   padding-left: 3px;
-  font-family: monospace;
+  font-family: Big Caslon;
 }
 .menu {
-  font-size: 150%;
-  /*background: green;*/
+  font-size: 125%;
+  margin-top: 10%;
+  margin-bottom: 180px;
   text-align: center;
-  float: left;
+  float: right;
+}
+a {
+  font-size: 125%;
+  position: relative;
+  font-family: Futura;
+  text-decoration: none;
+}
+a:link {
+  color: #903;
+}
+a:visited {
+  color: #3D9970;
+}
+a:hover {
+  color: #FF851B;
+  text-shadow: 1px 1px 0 #001F3F;
+}
+a:active {
+  top: 2px;
 }
 .page-content {
+  font-size: 90%;
   float: left;
   clear: both;
  /* background: blue;*/
@@ -36,8 +61,8 @@ h1:first-child:first-letter {
 .page-footer {
   /*background: yellow;*/
   width: 100%;
-  padding-top: 10px;
   padding-bottom: 20px;
-  text-align: center;
+  text-align: right;
+  font-size: 90%;
   float: left;
 }

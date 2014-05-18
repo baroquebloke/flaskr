@@ -9,18 +9,21 @@
     <div class="container">
       <div class="header">
         {% block page_header %}
-        <h1>Farnsworth&raquo<br>&laquoprogramming and web design&raquo</br></h1>
+        <h1>Farnsworth&raquo<br>&laquoProgramming and Web Design&raquo</br></h1>
         {% endblock page_header %}
       </div>
       <div class="menu">
         <h2>My name is Jacob and I love code.  I put lots of stuff up on 
-          <a href="http://github.com/baroquebloke">GitHub</a>.  When I'm not
+          <a href="http://github.com/baroquebloke" 
+            title="Follow me on GitHub">GitHub</a>.  When I'm not
           studying code I'm usually brewing beer or indulging in 
-          <a href="http://www.baroquebloke.com">my photography</a>.  Feel 
-          free to <a href="/static/FarnsworthResume.pdf" 
-            download="Jacob Farnsworth's Resume">download my resume</a> or
-          scroll down to read it here.  Got questions?  Feel free to 
-          <a href="mailto:jake@baroquebloke.com">contact me</a> any time.</h2>
+          <a href="http://www.baroquebloke.com"
+            title="My blog, baroquebloke.com">My Photography</a>. 
+          <a href="/static/FarnsworthResume.pdf" 
+            download="Jacob Farnsworth's Resume"
+            title="My resume!">Download my resume</a> or 
+          read it below.  Have some questions?   
+          <a href="mailto:jake@baroquebloke.com">Contact me</a>.</h2>
       </div>
       <div class="page-content">
         {% block content %}
