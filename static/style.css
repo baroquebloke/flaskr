@@ -1,18 +1,22 @@
 html {
-  max-width: 800px;
+  /*background: url("/static/louvre.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+  max-width: 100%;
   margin: 0 auto;
-  background: #DDDDDD;
   font-family: AppleGothic;
 }
 .container {
 }
 .header {
+  background: url("/static/louvre.jpg");
   width: 100%;
-  margin-top: 5%;
+  margin-top: 0;
   text-align: left;
-  line-height: 200%;
+  height: 400px;
   font-size: 125%;
-  /*background: red;*/
   float: left;
 }
 h1:first-child:first-letter {
@@ -27,11 +31,12 @@ h1:first-child:first-letter {
   font-family: Big Caslon;
 }
 .menu {
+  max-width: 800px;
   font-size: 125%;
   margin-top: 10%;
   margin-bottom: 180px;
   text-align: center;
-  float: right;
+  margin: 0 auto;
 }
 a {
   font-size: 125%;
@@ -43,26 +48,25 @@ a:link {
   color: #903;
 }
 a:visited {
-  color: #3D9970;
+  color: #903;
 }
 a:hover {
-  color: #FF851B;
-  text-shadow: 1px 1px 0 #001F3F;
+  color: #2ECC40;
 }
 a:active {
   top: 2px;
 }
 .page-content {
-  font-size: 90%;
-  float: left;
+  max-width: 800px;
+  font-size: 93%;
+  margin: 0 auto;
   clear: both;
- /* background: blue;*/
 }
 .page-footer {
-  /*background: yellow;*/
-  width: 100%;
+  max-width: 800px;
+  padding-top: 20px;
   padding-bottom: 20px;
   text-align: right;
   font-size: 90%;
-  float: left;
+  clear: both;
 }
