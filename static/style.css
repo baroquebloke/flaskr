@@ -1,6 +1,7 @@
 html {
   max-width: 800px;
   margin: 0 auto;
+  font-family: monospace;
 }
 .container {
 }
@@ -8,6 +9,8 @@ html {
   width: 100%;
   text-align: left;
   line-height: 200%;
+  font-size: 150%;
+  /*background: red;*/
   float: left;
 }
 h1:first-child:first-letter {
@@ -19,21 +22,22 @@ h1:first-child:first-letter {
   padding-left: 3px;
   font-family: monospace;
 }
+.menu {
+  font-size: 150%;
+  /*background: green;*/
+  text-align: center;
+  float: left;
+}
 .page-content {
-  width: 100%;
   float: left;
   clear: both;
-}
-.resume {
-  float: left;
-  clear: both;
-}
-h2 {
-  font-size: 300%;
-  text-align: right;
+ /* background: blue;*/
 }
 .page-footer {
+  /*background: yellow;*/
   width: 100%;
+  padding-top: 10px;
+  padding-bottom: 20px;
   text-align: center;
   float: left;
 }
