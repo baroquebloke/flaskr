@@ -1,9 +1,9 @@
 html {
-  /*background: url("/static/louvre.jpg") no-repeat center center fixed;
+  background: url("/static/louvre.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;*/
+  background-size: cover;
   max-width: 100%;
   margin: 0 auto;
   font-family: AppleGothic;
@@ -11,7 +11,7 @@ html {
 .container {
 }
 .header {
-  background: url("/static/louvre.jpg");
+ /* background: url("/static/louvre.jpg");*/
   width: 100%;
   margin-top: 0;
   text-align: left;
