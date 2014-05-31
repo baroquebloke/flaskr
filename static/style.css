@@ -4,22 +4,22 @@ html {
   font-family: AppleGothic; 
   background-color: #f7f7f7;
 }
-.container { 
+.container {
 }
 .pic {
   position: relative;
   width: 30%;
-  border: 5px solid #903;
+  border: 2px solid #903;
   border-radius: 50%;
   left: 70%;
   float: left;
   clear: both;
 }
 .header {
-  width: 100%;
+  width: 800px;
   margin-top: -23%;
   line-height: 0;
-  border-bottom: 5px solid #903;
+  border-bottom: 2px solid #903;
   letter-spacing: 5px;
   word-spacing: 10px;
   font-size: 125%; 
