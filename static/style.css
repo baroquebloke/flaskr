@@ -6,6 +6,9 @@ html {
   background-color: #fdf6e3;
 }
 .container {
+  border-left: 5px solid #cb4b16;
+  border-right: 5px solid #cb4b16;
+  padding-right: 30px;
 }
 .pic {
   position: relative;
@@ -34,6 +37,7 @@ html {
   width: 70%;
   font-size: 70%;
   margin-top: -100px;
+  padding-left: 45px;
   text-align: left;
   word-spacing: 2px;
   float: left;
@@ -59,51 +63,37 @@ a:active {
 }
 .note {
   position: relative;
-  border: 5px solid #cb4b16;
+  border: 5px dashed #cb4b16;
+  -webkit-border-radius: 0 25px 25px 25px;
+  -moz-border-radius: 0 25px 25px 25px;
+  -o-border-radius: 0 25px 25px 25px;
+  border-radius: 0 25px 25px 25px;
   background-color: #eee8d5;
   margin: 30px;
   padding: 10px;
+  font-size: 110%;
   text-align: left;
   float: left;
   clear: both;
 }
 #personal {
-  text-align: left;
-  -webkit-border-radius: 0 50px;
-  -moz-border-radius: 0 50px;
-  -o-border-radius: 0 50px;
-  border-radius: 0 50px;
-  /*-webkit-transform: rotate(-5deg);
-  -moz-transform: rotate(-5deg);
-  -o-transform: rotate(-5deg);
-  transform: rotate(-5deg);*/
 }
 #skillz {
-  -webkit-border-radius: 50px 0;
-  -moz-border-radius: 50px 0;
-  -o-border-radius: 50px 0;
-  border-radius: 50px 0;
-  /*-webkit-transform: rotate(5deg);
-  -moz-transform: rotate(5deg);
-  -o-transform: rotate(5deg);
-  transform: rotate(5deg);*/
 }
 #whyHire {
-  -webkit-border-radius: 0 50px;
-  -moz-border-radius: 0 50px;
-  -o-border-radius: 0 50px;
-  border-radius: 0 50px;
-  /*-webkit-transform: rotate(-5deg);
-  -moz-transform: rotate(-5deg);
-  -o-transform: rotate(-5deg);
-  transform: rotate(-5deg);*/
 }
 .page-content {
   max-width: 90%;
-  font-size: 105%;
+  padding: 10px;
+  border: 5px dashed #cb4b16;
+  -webkit-border-radius: 25px 0 25px 25px;
+  -moz-border-radius: 25px 0 25px 25px;
+  -o-border-radius: 25px 0 25px 25px;
+  border-radius: 25px 0 25px 25px;
+  background-color: #eee8d5;
+  font-size: 110%;
   line-height: 150%;
-  padding-top: 5%;
-  margin-left: 10%;
+  margin-left: 60px;
   clear: both;
 }
 .page-footer {
