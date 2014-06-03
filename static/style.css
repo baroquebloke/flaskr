@@ -1,15 +1,16 @@
 html {
   width: 800px;
   margin: 0 auto;
-  font-family: AppleGothic; 
-  background-color: #f7f7f7;
+  font-family: courier; 
+  color: #586e75;
+  background-color: #fdf6e3;
 }
 .container {
 }
 .pic {
   position: relative;
   width: 30%;
-  border: 5px solid #903;
+  border: 5px solid #cb4b16;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -o-border-radius: 50%;
@@ -22,7 +23,7 @@ html {
   width: 100%;
   margin-top: -23%;
   line-height: 0;
-  border-bottom: 5px solid #903;
+  border-bottom: 5px solid #cb4b16;
   letter-spacing: 5px;
   word-spacing: 10px;
   font-size: 125%; 
@@ -34,7 +35,7 @@ html {
   font-size: 70%;
   margin-top: -100px;
   text-align: left;
-  color: #666666;
+  word-spacing: 2px;
   float: left;
   clear: both;
 }
@@ -45,55 +46,57 @@ a {
   text-decoration: none;
 }
 a:link {
-  color: #903;
+  color: #2aa198;
 }
 a:visited {
-  color: #903;
+  color: #2aa198;
 }
 a:hover {
-  color: #2ECC40;
+  color: #859900;
 }
 a:active {
   top: 2px;
 }
 .note {
   position: relative;
-  border: 5px solid #903;
+  border: 5px solid #cb4b16;
+  background-color: #eee8d5;
   margin: 30px;
   padding: 10px;
-  text-align: center;
+  text-align: left;
   float: left;
   clear: both;
 }
 #personal {
+  text-align: left;
   -webkit-border-radius: 0 50px;
   -moz-border-radius: 0 50px;
   -o-border-radius: 0 50px;
   border-radius: 0 50px;
-  -webkit-transform: rotate(-5deg);
+  /*-webkit-transform: rotate(-5deg);
   -moz-transform: rotate(-5deg);
   -o-transform: rotate(-5deg);
-  transform: rotate(-5deg);
+  transform: rotate(-5deg);*/
 }
 #skillz {
   -webkit-border-radius: 50px 0;
   -moz-border-radius: 50px 0;
   -o-border-radius: 50px 0;
   border-radius: 50px 0;
-  -webkit-transform: rotate(5deg);
+  /*-webkit-transform: rotate(5deg);
   -moz-transform: rotate(5deg);
   -o-transform: rotate(5deg);
-  transform: rotate(5deg);
+  transform: rotate(5deg);*/
 }
 #whyHire {
   -webkit-border-radius: 0 50px;
   -moz-border-radius: 0 50px;
   -o-border-radius: 0 50px;
   border-radius: 0 50px;
-  -webkit-transform: rotate(-5deg);
+  /*-webkit-transform: rotate(-5deg);
   -moz-transform: rotate(-5deg);
   -o-transform: rotate(-5deg);
-  transform: rotate(-5deg);
+  transform: rotate(-5deg);*/
 }
 .page-content {
   max-width: 90%;
