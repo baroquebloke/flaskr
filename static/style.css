@@ -1,14 +1,24 @@
 html {
   width: 800px;
   margin: 0 auto;
-  font-family: courier; 
+  font-family: Helvetica;
   color: #586e75;
-  background-color: #fdf6e3;
+  background-color: #eee8d5;
+  /*background-color: #fdf6e3;*/
 }
 .container {
+  border-top: 5px solid #cb4b16;
+  border-bottom: 5px solid #cb4b16;
+  padding: 30px;
   border-left: 5px solid #cb4b16;
   border-right: 5px solid #cb4b16;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  background-color: #fdf6e3;
   padding-right: 30px;
+  padding-left: 30px;
 }
 .pic {
   position: relative;
@@ -18,7 +28,7 @@ html {
   -moz-border-radius: 50%;
   -o-border-radius: 50%;
   border-radius: 50%;
-  left: 70%;
+  left: 69%;
   float: left;
   clear: both;
 }
@@ -27,16 +37,17 @@ html {
   margin-top: -23%;
   line-height: 0;
   border-bottom: 5px solid #cb4b16;
+  color: #2aa198;
   letter-spacing: 5px;
-  word-spacing: 10px;
-  font-size: 125%; 
+  font-size: 120%; 
   float: left;
   clear: both;
 }
 .menu {
-  width: 70%;
+  width: 71%;
   font-size: 70%;
   margin-top: -100px;
+  margin-bottom: 10px;
   padding-left: 45px;
   text-align: left;
   word-spacing: 2px;
@@ -61,46 +72,28 @@ a:hover {
 a:active {
   top: 2px;
 }
-.note {
-  position: relative;
-  border: 5px dashed #cb4b16;
-  -webkit-border-radius: 0 25px 25px 25px;
-  -moz-border-radius: 0 25px 25px 25px;
-  -o-border-radius: 0 25px 25px 25px;
-  border-radius: 0 25px 25px 25px;
-  background-color: #eee8d5;
-  margin: 30px;
-  padding: 10px;
-  font-size: 110%;
-  text-align: left;
-  float: left;
-  clear: both;
-}
-#personal {
-}
-#skillz {
-}
-#whyHire {
-}
 .page-content {
-  max-width: 90%;
-  padding: 10px;
-  border: 5px dashed #cb4b16;
-  -webkit-border-radius: 25px 0 25px 25px;
-  -moz-border-radius: 25px 0 25px 25px;
-  -o-border-radius: 25px 0 25px 25px;
-  border-radius: 25px 0 25px 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin: 0 0 30px 0;
+  border: 5px solid #cb4b16;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
   background-color: #eee8d5;
   font-size: 110%;
   line-height: 150%;
-  margin-left: 60px;
   clear: both;
 }
 .page-footer {
-  max-width: 800px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-align: right;
+  max-width: 95%;
+  border-top: 5px solid #cb4b16;
+  border-bottom: 5px solid #cb4b16;
+  margin: 0 auto;
+  text-align: center;
   font-size: 90%;
   clear: both;
 }

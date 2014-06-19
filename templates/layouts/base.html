@@ -10,44 +10,34 @@
       <img src="/static/jake.png" alt="Photo of Jacob" class="pic"/>
       <div class="header">  
         {% block page_header %}
-        <h1>&nbspJacob Farnsworth</h1>
         {% endblock page_header %}
       </div>
       <div class="menu">
-        <h2><em>&raquoTake a gander at 
-          <a href="http://www.baroquebloke.com">My Photography</a>. 
-         <br>&raquoGo ahead and <a href="/static/FarnsworthResume.pdf" 
-         download="Jacob Farnsworth's Resume">Download My Resume</a>.
-         <br>&raquoHave questions? Feel free to 
-         <a href="mailto:jake@baroquebloke.com">Get In Touch</a>.</em></h2>
-      </div>
-      <div class="note" id="personal">
-        <h2>$ whoami<br>...</h2>
-        <p>Having diligently done my time in higher education in pursuit of
-          a music degree, I've decided to finally embrace my inner nerd.  
-           </p>
-      </div>
-      <div class="note" id="skillz">
-        <h2>$ ls /skillz<br>...</h2>
-        <p>I am proficient in Python, and largly self taught in HTML,
-          CSS3, and Flask.  I am also good a juggling multiple challanges such as
-          finishing a degree while simultainiously planning a wedding (my own), 
-          working numerous jobs (see resume below), and teaching my self web 
-          design.</p>
-      </div>
-      <div class="note" id="whyHire">
-        <h2>$ chmod +x hire.me<br>...</h2>
-        <p>I'd like to work with you!  I'm looking to participate 
-          in a competant team that will allow me to contribute new and unique
-          ideas as well as continue to grow faster than I ever could on my own.</p>
+        {% block menu %}
+        {% endblock %}
       </div>
       <div class="page-content">
-        {% block content %}
+        {% block personal %}
+        {% endblock %}
+      </div>
+      <div class="page-content">
+        {% block why_programming %}
+        {% endblock %}
+      </div>
+      <div class="page-content">
+        {% block skillz %}
+        {% endblock %}
+      </div>
+      <div class="page-content">
+        {% block hireMe %}
+        {% endblock %}
+      </div>
+      <div class="page-content">
+        {% block resume %}
         {% endblock %}
       </div>
       <div class="page-footer">
         {% block page_footer %}
-        This is my foot
         {% endblock page_footer %}
       </div>
     </div>

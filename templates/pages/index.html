@@ -1,65 +1,213 @@
 {% extends "layouts/base.html" %}
 
-{% block content %}
-<h2>$ vim resume.txt<br>...</h2>
-<h3>Education</h3>
+{% block page_header %}
+<h1>
+  &nbsp&nbspJacob Farnsworth
+</h1>
+{% endblock %}
+
+{% block menu %}
+<h2>
+  <em>
+    &raquoTake a gander at 
+    <a href="http://www.baroquebloke.com">My Photography</a>.
+    <br>&raquoRead my resume below or 
+    <a href="/static/FarnsworthResume.pdf" 
+      download="Jacob Farnsworth's Resume">Download It Here</a>.
+    <br>&raquoHave some questions?  Feel free to 
+    <a href="mailto:jake@baroquebloke.com">Get In Touch</a>.
+  </em>
+</h2>
+{% endblock %}
+
+{% block personal %}
+<h2>
+  Jake at a Glance
+  <br>...
+</h2>
+<p>
+  Jacob, or Jake, a.k.a. Baroquebloke, is a truly unique and highly inteligent
+  individual with a fondness for puns and 
+  <a href="http://www.ouaismaisbon.ch">bizarre French humor</a>, and speaking 
+  about himself in the third person.
+</p>
+<p>
+  When he's not studying code or thinking about tech you can  usually 
+  find him reading old scifi, brewing beer, or desiging his off-the-grid tiny
+  home and urban farm with his wife.
+</p>
+<p>
+  You can usually tell when he's in a room by the sound of passionate 
+  discussions about farm animals:
+</p>
+<p>
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<em>"I don't care what other people think, 
+    I will have goats one day, damnit!"</em>
+</p>
+{% endblock %}
+
+{% block why_programming %}
+<h2>
+  So Why Programming?
+  <br>...
+</h2>
+<p>
+</p>
+{% endblock %}
+
+{% block skillz %}
+<h2>
+  Look What I Can Do!
+  <br>...
+</h2>
+{% endblock %}
+
+{% block hireMe %}
+<h2>
+  Hire Me, Damnit!!!
+  <br>...
+</h2>
+{% endblock %}
+
+{% block resume %}
+<h2>
+  Resume
+  <br>...
+</h2>
+<h3>
+  Education
+</h3>
 <ul>
-  <li><b>Bachelor of Music <i>2014</i> - Oberlin Conservatory of Music</b></li>
+  <li>
+    <b>
+      Bachelor of Music <i>2014</i> - Oberlin Conservatory of Music
+    </b>
+  </li>
   <ul>
-    <li>major: baroque flute performance</li>
-    <li>Conservatory Dean's Scholar</li>
+    <li>
+      major: baroque flute performance
+    </li>
+    <li>
+      Conservatory Dean's Scholar
+    </li>
   </ul>
-  <li><b>CRR de Paris, France <i>2011 - 2012</i></b></li>
+  <li>
+    <b>
+      CRR de Paris, France <i>2011 - 2012</i>
+    </b>
+  </li>
   <ul>
-    <li>French baroque music studies</li>
+    <li>
+      French baroque music studies
+    </li>
   </ul>
-  <li><b>Campus Langues, Paris <i>2012 - 2013</i></b></li>
+  <li>
+    <b>
+      Campus Langues, Paris <i>2012 - 2013</i>
+    </b>
+  </li>
   <ul>
-    <li>French language studies</li>
+    <li>
+      French language studies
+    </li>
   </ul>
-  <li><b>Florida State University <i>2006 - 2008</i></b></li>
+  <li>
+    <b>
+      Florida State University <i>2006 - 2008</i>
+    </b>
+  </li>
   <ul>
-    <li>coursework: general studies and flute performance</li>
+    <li>
+      coursework: general studies and flute performance
+    </li>
   </ul>
 </ul>
-<h3>Work Experience</h3>
+<h3>
+  Work Experience
+</h3>
 <ul>
-  <li><b>Pipe Organ Technical Assistant <i>2009 - present</i></b></li>
+  <li>
+    <b>
+      Pipe Organ Technical Assistant <i>2009 - present</i>
+    </b>
+  </li>
   <ul>
-    <li>Trained under supervision of Hal Gober, curator of Organs
+    <li>
+      Trained under supervision of Hal Gober, curator of Organs
         for Oberlin Conservatory.  Responsible for general maintenance of 
-        Oberlin's numerous pipe organs</li>
+        Oberlin's numerous pipe organs
+      </li>
   </ul>
-  <li><b>Sales Assistant and Fabricator for Country Popcorn, 
-      Paris France <i>2011 - 2013</i></b></li>
+  <li>
+    <b>
+      Sales Assistant and Fabricator for Country Popcorn, 
+      Paris France <i>2011 - 2013</i>
+    </b>
+  </li>
   <ul>
-    <li>Responsible for care of the work truck, set up and maintenance of
-        equipment</li>
-    <li>Cooked kettle corn by hand</li>
-    <li>Interacted with large crowds of diverse nationalities and 
-        languages</li>
+    <li>
+      Responsible for care of the work truck, set up and maintenance of
+      equipment
+    </li>
+    <li>
+      Cooked kettle corn by hand
+    </li>
+    <li>
+      Interacted with large crowds of diverse nationalities and 
+      languages
+    </li>
   </ul>
-  <li><b>Freelance Construction Work <i>2009 - present</i></b></li>
+  <li>
+    <b>
+      Freelance Construction Work <i>2009 - present</i>
+    </b>
+  </li>
   <ul>
-    <li>framing, drywall instalation, demolition, remodeling, electrical, 
-        and plumbing projects</li>
+    <li>
+      framing, drywall instalation, demolition, remodeling, electrical, 
+      and plumbing projects
+    </li>
   </ul>
 </ul>
-<h3>Relevant Coursework</h3>
+<h3>
+  Relevant Coursework
+</h3>
 <ul>
-  <li>Python Programming, winter term projects working independently, 
-    website design</li>
+  <li>
+    Python Programming, winter term projects working independently, 
+    website design
+  </li>
 </ul>
-<h3>Skills</h3>
+<h3>
+  Skills
+</h3>
 <ul>
-  <li>Strong knowledge of operating systems and maintenance of Linux, 
-    Mac OS X, and Windows</li>
-  <li>Computer programming and web design</li>
-  <li>Photography experience using many types of cameras, equipment, 
-    and techniques</li>
-  <li>Photo editing including Photoshop and Aperture</li>
-  <li>Working proficiency in French</li>
-  <li>Competency with power tools, woodworking, and general construction 
-    techniques</li>
+  <li>
+    Strong knowledge of operating systems and maintenance of Linux, 
+    Mac OS X, and Windows
+  </li>
+  <li>
+    Computer programming and web design
+  </li>
+  <li>
+    Photography experience using many types of cameras, equipment, 
+    and techniques
+  </li>
+  <li>
+    Photo editing including Photoshop and Aperture
+  </li>
+  <li>
+    Working proficiency in French
+  </li>
+  <li>
+    Competency with power tools, woodworking, and general construction 
+    techniques
+  </li>
 </ul>
+{% endblock %}
+
+{% block page_footer %}
+<p>
+  This is my foot
+</p>
 {% endblock %}
