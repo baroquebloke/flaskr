@@ -84,14 +84,15 @@ a:active {
   -o-border-radius: 10px;
   border-radius: 10px;
   background-color: #eee8d5;
-  font-size: 110%;
+  font-size: 111%;
   line-height: 150%;
   clear: both;
 }
 .page-footer {
   max-width: 95%;
   border-top: 5px solid #cb4b16;
-  border-bottom: 5px solid #cb4b16;
+  height: 0px;
+  line-height: 20%;
   margin: 0 auto;
   text-align: center;
   font-size: 90%;
