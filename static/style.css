@@ -76,7 +76,7 @@ a.french {
   padding-bottom: 5px;
   padding-left: 25px;
   padding-right: 25px;
-  margin: 0 0 30px 0;
+  margin: 30px 0 0 0;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -o-border-radius: 10px;
@@ -85,6 +85,20 @@ a.french {
   font-size: 111%;
   line-height: 130%;
   clear: both;
+}
+.left-foot, .right-foot {
+  position: relative;
+  width: 50px;
+  height: auto;
+  margin-bottom: -30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.left-foot {
+  left: 32%;
+}
+.right-foot {
+  left: 37%;
 }
 .page-footer {
   max-width: 95%;
