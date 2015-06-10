@@ -1,3 +1,7 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+ * v2.0 | 20110126
+ * License: none (public domain) */
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -11,72 +15,110 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 
 /*#######################################*/
 
 html {
-  width: 800px;
-  margin: 0 auto;
   font-family: Helvetica;
   color: #586e75;
-  background-color: #657b83;
+  background-color: #fdf6e3;
+}
+body {
+	max-width: 800px;
+	min-width: 360px;
+	margin: 0 auto;
 }
 .container {
-  padding: 30px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -o-border-radius: 10px;
+	min-height: 100%;
+	width: 100%;
+	margin-bottom: -50px;
+  -webkit-border-radius: 5px;
+		 -moz-border-radius: 5px;
+			 -o-border-radius: 5px;
+					border-radius: 5px;
   border: 0px solid #cb4b16;
-  border-radius: 10px;
   background-color: #fdf6e3;
-  padding-right: 30px;
-  padding-left: 30px;
 }
-.pic {
-  position: relative;
-  width: 30%;
-  border: 5px solid #cb4b16;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
-  border-radius: 50%;
-  left: 69%;
-  float: left;
-  clear: both;
+.container:after {
+	content: "";
+	display: block;
+}
+.head-nav {
+	min-height: 100%;
 }
 .header {
-  width: 100%;
-  margin-top: -23%;
-  line-height: 0;
-  border-bottom: 5px solid #cb4b16;
-  color: #2aa198;
-  letter-spacing: 5px;
-  font-size: 120%; 
-  float: left;
-  clear: both;
+	float: left;
+	width: 35%;
+	padding: 10px 10px 10px 10px;
+	box-sizing: border-box;
+}
+.menu h1 {
+	border-bottom: 5px solid #cb4b16;
+	border-top: 5px solid #cb4b16;
+}
+.pic{
+	width: 100%;
+	margin: -5px;
+	border: 5px solid #cb4b16;
+  -webkit-border-radius: 50%;
+		 -moz-border-radius: 50%;
+			 -o-border-radius: 50%;
+					border-radius: 50%;
 }
 .menu {
-  width: 71%;
-  font-size: 70%;
-  margin-top: -100px;
-  margin-bottom: 10px;
-  padding-left: 45px;
-  text-align: left;
-  word-spacing: 2px;
-  line-height: 230%;
-  float: left;
-  clear: both;
+	min-height: 100%;
+	width: 65%;
+	padding: 10px 10px 5px 10px;
+	box-sizing: border-box;
+	text-align: center;
+	float: left;
+}
+.menu ul {
+	padding-top: 30px;
+	line-height: 2.3;
+	font-size: 125%;
+	font-weight: bold;
+}
+.menu a {
+	border-bottom: 5px dotted #cb4b16;
+}
+.name {
+	font-size: 325%;
+  color: #2aa198;
+	margin-top: 10px;
 }
 a {
-  font-size: 125%;
-  position: relative;
   text-decoration: none;
 }
 a:link {
@@ -88,26 +130,37 @@ a:visited {
 a:hover {
   color: #859900;
 }
-a:active {
-  top: 2px;
-}
 a.french {
   font-size: 100%;
 }
 .page-content {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 25px;
-  padding-right: 25px;
-  margin: 30px 0 0 0;
+	padding: 10px;
+  margin: 10px 10px 0 10px;
   -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -o-border-radius: 10px;
-  border-radius: 10px;
+		 -moz-border-radius: 10px;
+			 -o-border-radius: 10px;
+					border-radius: 10px;
   background-color: #eee8d5;
   font-size: 111%;
-  line-height: 130%;
-  clear: both;
+  line-height: 150%;
+	clear: both;
+}
+.page-content h2 {
+	font-weight: bold;
+	font-size: 150%;
+}
+.page-content h3 {
+	font-size: 125%;
+	font-weight: bold;
+}
+.page-content p {
+	text-indent: 30px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.page-content  ul {
+	margin: 0 0 20px 30px;
+	list-style: disc;
 }
 .left-foot, .right-foot {
   position: relative;
@@ -118,17 +171,34 @@ a.french {
   padding-right: 30px;
 }
 .left-foot {
-  left: 32%;
+	right: 5%;
 }
 .right-foot {
-  left: 37%;
+	left: 5%;
+}
+.page-footer, .container:after {
+	height: 50px;
 }
 .page-footer {
-  max-width: 95%;
-  height: 0px;
+	width: 100%;
+	height: 50px;
   line-height: 20%;
   margin: 0 auto;
   text-align: center;
-  font-size: 90%;
-  clear: both;
+	float: left;
+}
+.page-footer p {
+	margin-top: 18px;
+}
+
+@media screen and (max-width: 700px) {
+	.page-content { text-align: justify; }
+	.page-content h2 { text-align: center; }
+	.header { width: 100%; }
+	.menu { width: 100%; }
+	.menu ul { padding-top: 10px; }
+}
+@media screen and (max-width: 480px) {
+	.menu { font-size: 85%; }
+	.menu h1 { font-size: 95%; }
 }

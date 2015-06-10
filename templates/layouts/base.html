@@ -2,20 +2,22 @@
 <html>
   <head>
     <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Jacob Farnsworth</title>
     <link rel="stylesheet" type="text/css" href="/static/style.css"/>
   </head>
   <body>
     <div class="container">
-      <img src="/static/jake.png" alt="Photo of Jacob" class="pic"/>
-      <div class="header">  
-        {% block page_header %}
-        {% endblock page_header %}
-      </div>
-      <div class="menu">
-        {% block menu %}
-        {% endblock %}
-      </div>
+			<div class="head-nav">
+				<div class="header">  
+					{% block page_header %}
+					{% endblock page_header %}
+				</div>
+				<div class="menu">
+					{% block menu %}
+					{% endblock %}
+				</div>
+			</div>
       <div class="page-content">
         {% block personal %}
         {% endblock %}
@@ -36,8 +38,6 @@
         {% block resume %}
         {% endblock %}
       </div> 
-        <img src="/static/side_left.png" alt="FOOT" class="left-foot"/>
-        <img src="/static/side_right.png" alt="FOOT" class="right-foot"/>
       <div class="page-footer">
         {% block page_footer %}
         {% endblock page_footer %}
