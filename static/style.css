@@ -196,7 +196,8 @@ a.french {
 	.page-content h2 { text-align: center; }
 	.header { width: 100%; }
 	.menu { width: 100%; }
-	.menu ul { padding-top: 10px; }
+	.menu ul { padding-top: 10px; 
+						 padding-bottom: 10px; }
 }
 @media screen and (max-width: 480px) {
 	.menu { font-size: 85%; }
