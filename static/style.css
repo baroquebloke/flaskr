@@ -61,22 +61,17 @@ body {
 .container {
 	min-height: 100%;
 	width: 100%;
-	margin-bottom: -50px;
+	margin-bottom: -10px;
 }
 .container:after {
 	content: "";
 	display: block;
-}
-.head-nav {
-	min-height: 100%;
 }
 .header {
 	float: left;
 	width: 35%;
 	padding: 10px 10px 10px 10px;
 	box-sizing: border-box;
-}
-.menu h1 {
 }
 .pic{
 	width: 100%;
@@ -95,16 +90,13 @@ body {
 	float: left;
 }
 .menu ul {
-	padding-top: 18px;
 	line-height: 2.3;
 	font-size: 125%;
 	font-weight: bold;
 }
-.menu a {
-}
 .name {
 	font-size: 325%;
-	margin-top: 25px;
+	margin-top: 10px;
 }
 a {
   text-decoration: none;
@@ -136,6 +128,9 @@ a.french {
 .page-content h2 {
 	font-weight: bold;
 	font-size: 150%;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #22313f;
 }
 .page-content h3 {
 	font-size: 125%;
@@ -143,36 +138,23 @@ a.french {
 }
 .page-content p {
 	text-indent: 30px;
-	margin-top: 10px;
-	margin-bottom: 20px;
+	margin-top: 15px;
 }
 .page-content  ul {
 	margin: 0 0 20px 30px;
 	list-style: disc;
 }
-.left-foot, .right-foot {
-  position: relative;
-  width: 50px;
-  height: auto;
-  margin-bottom: -30px;
-  padding-left: 30px;
-  padding-right: 30px;
-}
 .page-footer, .container:after {
-	height: 50px;
+	height: 10px;
 }
 .page-footer {
 	width: 100%;
-	height: 50px;
+	height: 10px;
   line-height: 20%;
   margin: 0 auto;
   text-align: center;
 	float: left;
 }
-.page-footer p {
-	margin-top: 18px;
-}
-
 @media screen and (max-width: 700px) {
 	.page-content { text-align: justify; }
 	.page-content h2 { text-align: center; }
