@@ -51,8 +51,7 @@ table {
 
 html {
   font-family: Helvetica;
-  color: #586e75;
-  background-color: #fdf6e3;
+  color: #22313f;
 }
 body {
 	max-width: 800px;
@@ -63,12 +62,6 @@ body {
 	min-height: 100%;
 	width: 100%;
 	margin-bottom: -50px;
-  -webkit-border-radius: 5px;
-		 -moz-border-radius: 5px;
-			 -o-border-radius: 5px;
-					border-radius: 5px;
-  border: 0px solid #cb4b16;
-  background-color: #fdf6e3;
 }
 .container:after {
 	content: "";
@@ -84,51 +77,46 @@ body {
 	box-sizing: border-box;
 }
 .menu h1 {
-	border-bottom: 5px solid #cb4b16;
-	border-top: 5px solid #cb4b16;
 }
 .pic{
 	width: 100%;
-	margin: -5px;
-	border: 5px solid #cb4b16;
-  -webkit-border-radius: 50%;
-		 -moz-border-radius: 50%;
-			 -o-border-radius: 50%;
-					border-radius: 50%;
+	border: 1px solid #22313f;
+  -webkit-border-radius: 2px;
+		 -moz-border-radius: 2px;
+			 -o-border-radius: 2px;
+					border-radius: 2px;
 }
 .menu {
 	min-height: 100%;
 	width: 65%;
-	padding: 10px 10px 5px 10px;
+	padding: 0 10px 5px 10px;
 	box-sizing: border-box;
 	text-align: center;
 	float: left;
 }
 .menu ul {
-	padding-top: 30px;
+	padding-top: 18px;
 	line-height: 2.3;
 	font-size: 125%;
 	font-weight: bold;
 }
 .menu a {
-	border-bottom: 5px dotted #cb4b16;
 }
 .name {
 	font-size: 325%;
-  color: #2aa198;
-	margin-top: 10px;
+	margin-top: 25px;
 }
 a {
   text-decoration: none;
 }
 a:link {
-  color: #2aa198;
+  color: #1e8bc3;
 }
 a:visited {
-  color: #2aa198;
+  color: #1e8bc3;
 }
 a:hover {
-  color: #859900;
+  color: #336e7b;
 }
 a.french {
   font-size: 100%;
@@ -136,11 +124,11 @@ a.french {
 .page-content {
 	padding: 10px;
   margin: 10px 10px 0 10px;
-  -webkit-border-radius: 10px;
-		 -moz-border-radius: 10px;
-			 -o-border-radius: 10px;
-					border-radius: 10px;
-  background-color: #eee8d5;
+  -webkit-border-radius: 2px;
+		 -moz-border-radius: 2px;
+			 -o-border-radius: 2px;
+					border-radius: 2px;
+  background-color: #ecf0f1;
   font-size: 111%;
   line-height: 150%;
 	clear: both;
@@ -169,12 +157,6 @@ a.french {
   margin-bottom: -30px;
   padding-left: 30px;
   padding-right: 30px;
-}
-.left-foot {
-	right: 5%;
-}
-.right-foot {
-	left: 5%;
 }
 .page-footer, .container:after {
 	height: 50px;
